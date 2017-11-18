@@ -41,3 +41,24 @@ body {
 a:hover {
   color: grey;
 }
+
+.menu  {
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+  max-height: 75vh;
+}
+
+.menu img {
+  width: 100;
+}
+
+.menu-title {
+position: absolute;
+z-index: 2;
+position: absolute;
+bottom: 15rem;
+width: 100%;
+margin: 0;
+background-color: #fff;
+}
