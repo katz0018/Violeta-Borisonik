@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+font: normal 100%/1.5 Georgia,serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 15rem;
+  width: 100%;
+  margin: 0;
+}
+
+.banner-content a {
+  text-decoration: none;
+  color: #fff;
+  background-color: black;
+  padding: .5rem;
+  border-radius: .2em;
+}
+
+a:hover {
+  color: grey;
+}
