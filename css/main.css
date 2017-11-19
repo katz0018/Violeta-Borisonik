@@ -42,23 +42,34 @@ a:hover {
   color: grey;
 }
 
-.menu  {
-  position: relative;
-  text-align: center;
-  font-size: 2rem;
-  max-height: 75vh;
-}
-
-.menu img {
-  width: 100;
+.menu-img {
+position: relative;
+width: 100%;
+opacity: 0.6;
 }
 
 .menu-title {
-position: absolute;
-z-index: 2;
-position: absolute;
-bottom: 15rem;
-width: 100%;
-margin: 0;
-background-color: #fff;
+}
+
+nav {
+  position: relative;
+  background-color: #fff;
+  padding: .5rem;
+  border-radius: .2em;
+  text-align: center;
+  bottom: 29rem;
+  border-radius: .2em;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
 }
